@@ -156,17 +156,17 @@
   /**
    * Read more button
    */
-  // let readMoreBtn = select(".read-more-btn");
-  // let text = select(".text-area");
+  let readMoreBtn = select(".read-more-btn");
+  let text = select(".text-area");
 
-  // readMoreBtn.addEventListener("click", (e) => {
-  //   text.classList.toggle("show-more");
-  //   if (readMoreBtn.innerText === "Read More") {
-  //     readMoreBtn.innerText = "Read Less";
-  //   } else {
-  //     readMoreBtn.innerText = "Read More";
-  //   }
-  // });
+  readMoreBtn.addEventListener("click", (e) => {
+    text.classList.toggle("show-more");
+    if (readMoreBtn.innerText === "Read More") {
+      readMoreBtn.innerText = "Read Less";
+    } else {
+      readMoreBtn.innerText = "Read More";
+    }
+  });
 
   /**
    * Skills animation

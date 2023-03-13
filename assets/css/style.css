@@ -267,7 +267,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #ff5f9e;
+  background-color: #ff731d;
 }
 
 /*--------------------------------------------------------------
@@ -436,10 +436,17 @@ section {
 }
 
 .profile-img {
-  border-radius: 50%;
-  border: solid 3px #ff731d;
+  width: 50vmin;
+  height: 50vmin;
+  border: 3px solid #ff731d;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
 }
-/* 
+
 .more-text {
   display: none;
 }
@@ -460,7 +467,7 @@ section {
 
 .text-area.show-more .dots {
   display: none;
-} */
+}
 
 /*--------------------------------------------------------------
 # Facts
