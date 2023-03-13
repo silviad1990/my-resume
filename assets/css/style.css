@@ -439,6 +439,28 @@ section {
   border-radius: 50%;
   border: solid 3px #ff731d;
 }
+/* 
+.more-text {
+  display: none;
+}
+
+.read-more-btn {
+  background: #ff731d;
+  border: 0;
+  padding: 10px 35px;
+  margin: 20px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.text-area.show-more .more-text {
+  display: inline;
+}
+
+.text-area.show-more .dots {
+  display: none;
+} */
 
 /*--------------------------------------------------------------
 # Facts
@@ -683,6 +705,10 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider video {
   width: 100%;
 }
 

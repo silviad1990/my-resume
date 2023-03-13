@@ -1,9 +1,3 @@
-/**
- * Template Name: MyResume - v4.10.0
- * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 (function () {
   "use strict";
 
@@ -158,6 +152,21 @@
       backDelay: 2000,
     });
   }
+
+  /**
+   * Read more button
+   */
+  // let readMoreBtn = select(".read-more-btn");
+  // let text = select(".text-area");
+
+  // readMoreBtn.addEventListener("click", (e) => {
+  //   text.classList.toggle("show-more");
+  //   if (readMoreBtn.innerText === "Read More") {
+  //     readMoreBtn.innerText = "Read Less";
+  //   } else {
+  //     readMoreBtn.innerText = "Read More";
+  //   }
+  // });
 
   /**
    * Skills animation
